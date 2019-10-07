@@ -196,13 +196,13 @@ def writeToFile(members, filename):
 ############################################################################################################################################################################
 
 
-    # Polling Bot
-print("Bot running.....")
-    # bot.polling(none_stop=True)
-bot.run_until_disconnected()
+#     # Polling Bot
+# print("Bot running.....")
+#     # bot.polling(none_stop=True)
+# bot.run_until_disconnected()
 
-while True:
-    pass
+# while True:
+#     pass
 
 
 @server.route('/' + TOKEN, methods=['POST'])
