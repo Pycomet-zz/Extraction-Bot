@@ -1,7 +1,17 @@
 certifi==2019.9.11
 chardet==3.0.4
+Click==7.0
+Flask==1.1.1
 idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+pyaes==1.6.1
+pyasn1==0.4.7
 pyTelegramBotAPI==3.6.6
 requests==2.22.0
+rsa==4.0
 six==1.12.0
+Telethon==1.10.6
 urllib3==1.25.6
+Werkzeug==0.16.0
