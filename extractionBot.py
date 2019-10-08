@@ -23,10 +23,7 @@ import logging
 import time
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-from random import randint as rand
 import csv
-from flask import Flask, request
-import os
 
 
 ## Setup Logging 
@@ -46,8 +43,6 @@ admin = [577180091]
 
 ## Connection of all the integrated APIs
 bot = TelegramClient("Tebsfa", api_id, api_hash).start(bot_token=token) # Starting Telegram Bot API 
-
-server = Flask(__name__)
 
 ## Setting up database
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
@@ -124,10 +119,14 @@ async def getMembers(user, link):
 
     numberOfMembers = len(members)
 
-    await bot.send_message(user.id, f"Updating Database with {numberOfMembers} Members")
+    groupName = link.split("/")[1]
+
+    await bot.send_message(user.id, f"Updating {numberOfMembers} Members In {groupName.upper()} To Database Started!!")
 
     await sendMembersToDb(user.id, members) # Move To Next Step
     # writeToFile(members, filename) # Move To Next Step
+
+    await bot.send_message(user.id, f"Updating Users From The Next Group Loading....")
 
     return lastExtract
 
@@ -150,7 +149,7 @@ async def sendMembersToDb(userid, members):
             
             if str(user.id) not in ids:
 
-                await bot.send_message(userid, f"Added {members.index(user)} member to the database")
+                await bot.send_message(userid, f"Added member {members.index(user)} of  to the database")
                 index = int(len(sheet1.get_all_records()) + 2)
                 time.sleep(1)
 
@@ -190,38 +189,18 @@ def writeToFile(members, filename):
                     'User Id': user.id,
                     'User Status': user.status
                 })
-    quit()
 
 
 ############################################################################################################################################################################
 
 
-#     # Polling Bot
-# print("Bot running.....")
-#     # bot.polling(none_stop=True)
-# bot.run_until_disconnected()
+    # Polling Bot
+print("Bot running.....")
+    # bot.polling(none_stop=True)
+bot.run_until_disconnected()
 
-# while True:
-#     pass
-
-
-@server.route('/' + token, methods=['POST'])
-def getMessage():
-    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
-    return "!", 200
-
-@server.route("/")
-def webhook():
-    bot.remove_webhook()
-    bot.set_webhook(url='https://dry-scrubland-17857.herokuapp.com/' + token)
-    return "!", 200
-
-if __name__ == "__main__":
-    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
-
-
-    
-
+while True:
+    pass
 
     
     
