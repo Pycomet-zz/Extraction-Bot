@@ -1,0 +1,644 @@
+ERROR: 10/27/2019 04:08:19 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 212, in start
+    async with telebot.TeleBot(token=token) as bot2:
+AttributeError: __aexit__
+ERROR: 10/27/2019 04:10:51 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 212, in start
+    with telebot.TeleBot(token=token) as bot2:
+AttributeError: __enter__
+INFO: 10/27/2019 04:12:39 Started polling.
+DEBUG: 10/27/2019 04:12:39 Received task
+DEBUG: 10/27/2019 04:12:39 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:12:42 The server returned: 'b'{"ok":true,"result":[{"update_id":131698608,\n"message":{"message_id":1103,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572123339,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":131698609,\n"message":{"message_id":1104,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572123359,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":131698610,\n"message":{"message_id":1105,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572188898,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":131698611,\n"message":{"message_id":1107,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572188977,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":131698612,\n"message":{"message_id":1108,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572189050,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}},{"update_id":131698613,\n"message":{"message_id":1110,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572189157,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 04:12:42 Received 6 new updates
+DEBUG: 10/27/2019 04:12:42 Task complete
+DEBUG: 10/27/2019 04:12:42 Received task
+DEBUG: 10/27/2019 04:12:42 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698614, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:12:52 The server returned: 'b'{"ok":true,"result":[{"update_id":131698614,\n"message":{"message_id":1112,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572189173,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 04:12:52 Received 1 new updates
+DEBUG: 10/27/2019 04:12:52 Task complete
+DEBUG: 10/27/2019 04:12:52 Received task
+DEBUG: 10/27/2019 04:12:52 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698615, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:13:00 The server returned: 'b'{"ok":true,"result":[{"update_id":131698615,\n"message":{"message_id":1113,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572189182,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 04:13:00 Received 1 new updates
+DEBUG: 10/27/2019 04:13:00 Task complete
+DEBUG: 10/27/2019 04:13:00 Received task
+DEBUG: 10/27/2019 04:13:00 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698616, 'timeout': 20} files=None
+INFO: 10/27/2019 04:13:12 KeyboardInterrupt received.
+INFO: 10/27/2019 04:13:12 Stopped polling.
+ERROR: 10/27/2019 04:13:12 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 213, in start
+    bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+INFO: 10/27/2019 04:13:15 Started polling.
+DEBUG: 10/27/2019 04:13:15 Received task
+DEBUG: 10/27/2019 04:13:15 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:13:19 The server returned: 'b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}''
+ERROR: 10/27/2019 04:13:23 ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\util.py", line 59, in run
+    task(*args, **kwargs)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 276, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 246, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 180, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+DEBUG: 10/27/2019 04:13:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:13:39 Received 0 new updates
+DEBUG: 10/27/2019 04:13:39 Task complete
+DEBUG: 10/27/2019 04:13:39 Received task
+DEBUG: 10/27/2019 04:13:39 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:13:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:13:59 Received 0 new updates
+DEBUG: 10/27/2019 04:13:59 Task complete
+DEBUG: 10/27/2019 04:13:59 Received task
+DEBUG: 10/27/2019 04:13:59 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:14:20 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:14:20 Received 0 new updates
+DEBUG: 10/27/2019 04:14:20 Task complete
+DEBUG: 10/27/2019 04:14:20 Received task
+DEBUG: 10/27/2019 04:14:20 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:14:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:14:40 Received 0 new updates
+DEBUG: 10/27/2019 04:14:40 Task complete
+DEBUG: 10/27/2019 04:14:40 Received task
+DEBUG: 10/27/2019 04:14:40 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+INFO: 10/27/2019 04:14:43 KeyboardInterrupt received.
+INFO: 10/27/2019 04:14:43 Stopped polling.
+ERROR: 10/27/2019 04:14:43 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 213, in start
+    bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+INFO: 10/27/2019 04:14:45 Started polling.
+DEBUG: 10/27/2019 04:14:45 Received task
+DEBUG: 10/27/2019 04:14:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:14:50 The server returned: 'b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}''
+ERROR: 10/27/2019 04:14:50 ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:\n[b\'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}\']',)
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\util.py", line 59, in run
+    task(*args, **kwargs)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 276, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 246, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 180, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 56, in _make_request
+    return _check_result(method_name, result)['result']
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\apihelper.py", line 75, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 409 Conflict. Response body:
+[b'{"ok":false,"error_code":409,"description":"Conflict: terminated by other getUpdates request; make sure that only one bot instance is running"}']
+
+DEBUG: 10/27/2019 04:15:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:15:13 Received 0 new updates
+DEBUG: 10/27/2019 04:15:16 Task complete
+DEBUG: 10/27/2019 04:15:19 Received task
+DEBUG: 10/27/2019 04:15:20 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:15:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:15:40 Received 0 new updates
+DEBUG: 10/27/2019 04:15:40 Task complete
+DEBUG: 10/27/2019 04:15:40 Received task
+DEBUG: 10/27/2019 04:15:40 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:16:01 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:16:01 Received 0 new updates
+DEBUG: 10/27/2019 04:16:01 Task complete
+DEBUG: 10/27/2019 04:16:01 Received task
+DEBUG: 10/27/2019 04:16:01 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:16:21 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:16:21 Received 0 new updates
+DEBUG: 10/27/2019 04:16:21 Task complete
+DEBUG: 10/27/2019 04:16:21 Received task
+DEBUG: 10/27/2019 04:16:21 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:16:41 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:16:42 Received 0 new updates
+DEBUG: 10/27/2019 04:16:42 Task complete
+DEBUG: 10/27/2019 04:16:42 Received task
+DEBUG: 10/27/2019 04:16:42 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:17:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:17:02 Received 0 new updates
+DEBUG: 10/27/2019 04:17:02 Task complete
+DEBUG: 10/27/2019 04:17:02 Received task
+DEBUG: 10/27/2019 04:17:02 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:17:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:17:22 Received 0 new updates
+DEBUG: 10/27/2019 04:17:22 Task complete
+DEBUG: 10/27/2019 04:17:22 Received task
+DEBUG: 10/27/2019 04:17:22 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:17:42 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:17:42 Received 0 new updates
+DEBUG: 10/27/2019 04:17:42 Task complete
+DEBUG: 10/27/2019 04:17:43 Received task
+DEBUG: 10/27/2019 04:17:43 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:18:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:18:03 Received 0 new updates
+DEBUG: 10/27/2019 04:18:03 Task complete
+DEBUG: 10/27/2019 04:18:03 Received task
+DEBUG: 10/27/2019 04:18:03 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:18:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:18:24 Received 0 new updates
+DEBUG: 10/27/2019 04:18:24 Task complete
+DEBUG: 10/27/2019 04:18:24 Received task
+DEBUG: 10/27/2019 04:18:24 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:18:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:18:44 Received 0 new updates
+DEBUG: 10/27/2019 04:18:44 Task complete
+DEBUG: 10/27/2019 04:18:44 Received task
+DEBUG: 10/27/2019 04:18:44 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:19:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:19:04 Received 0 new updates
+DEBUG: 10/27/2019 04:19:04 Task complete
+DEBUG: 10/27/2019 04:19:04 Received task
+DEBUG: 10/27/2019 04:19:04 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:19:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:19:25 Received 0 new updates
+DEBUG: 10/27/2019 04:19:25 Task complete
+DEBUG: 10/27/2019 04:19:25 Received task
+DEBUG: 10/27/2019 04:19:25 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:19:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:19:45 Received 0 new updates
+DEBUG: 10/27/2019 04:19:45 Task complete
+DEBUG: 10/27/2019 04:19:45 Received task
+DEBUG: 10/27/2019 04:19:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:20:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:20:05 Received 0 new updates
+DEBUG: 10/27/2019 04:20:05 Task complete
+DEBUG: 10/27/2019 04:20:05 Received task
+DEBUG: 10/27/2019 04:20:05 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:20:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:20:25 Received 0 new updates
+DEBUG: 10/27/2019 04:20:25 Task complete
+DEBUG: 10/27/2019 04:20:25 Received task
+DEBUG: 10/27/2019 04:20:25 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:20:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:20:45 Received 0 new updates
+DEBUG: 10/27/2019 04:20:45 Task complete
+DEBUG: 10/27/2019 04:20:45 Received task
+DEBUG: 10/27/2019 04:20:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:21:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:21:06 Received 0 new updates
+DEBUG: 10/27/2019 04:21:06 Task complete
+DEBUG: 10/27/2019 04:21:06 Received task
+DEBUG: 10/27/2019 04:21:06 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:21:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:21:26 Received 0 new updates
+DEBUG: 10/27/2019 04:21:26 Task complete
+DEBUG: 10/27/2019 04:21:26 Received task
+DEBUG: 10/27/2019 04:21:26 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:21:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:21:46 Received 0 new updates
+DEBUG: 10/27/2019 04:21:46 Task complete
+DEBUG: 10/27/2019 04:21:46 Received task
+DEBUG: 10/27/2019 04:21:46 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:22:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:22:06 Received 0 new updates
+DEBUG: 10/27/2019 04:22:06 Task complete
+DEBUG: 10/27/2019 04:22:06 Received task
+DEBUG: 10/27/2019 04:22:06 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:22:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:22:27 Received 0 new updates
+DEBUG: 10/27/2019 04:22:27 Task complete
+DEBUG: 10/27/2019 04:22:27 Received task
+DEBUG: 10/27/2019 04:22:27 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:22:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:22:47 Received 0 new updates
+DEBUG: 10/27/2019 04:22:47 Task complete
+DEBUG: 10/27/2019 04:22:47 Received task
+DEBUG: 10/27/2019 04:22:47 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:23:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:23:08 Received 0 new updates
+DEBUG: 10/27/2019 04:23:08 Task complete
+DEBUG: 10/27/2019 04:23:08 Received task
+DEBUG: 10/27/2019 04:23:08 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:23:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:23:28 Received 0 new updates
+DEBUG: 10/27/2019 04:23:28 Task complete
+DEBUG: 10/27/2019 04:23:28 Received task
+DEBUG: 10/27/2019 04:23:28 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:23:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:23:48 Received 0 new updates
+DEBUG: 10/27/2019 04:23:48 Task complete
+DEBUG: 10/27/2019 04:23:48 Received task
+DEBUG: 10/27/2019 04:23:48 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:24:09 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:24:09 Received 0 new updates
+DEBUG: 10/27/2019 04:24:09 Task complete
+DEBUG: 10/27/2019 04:24:09 Received task
+DEBUG: 10/27/2019 04:24:09 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:24:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:24:29 Received 0 new updates
+DEBUG: 10/27/2019 04:24:29 Task complete
+DEBUG: 10/27/2019 04:24:29 Received task
+DEBUG: 10/27/2019 04:24:29 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:24:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:24:49 Received 0 new updates
+DEBUG: 10/27/2019 04:24:49 Task complete
+DEBUG: 10/27/2019 04:24:49 Received task
+DEBUG: 10/27/2019 04:24:49 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+INFO: 10/27/2019 04:49:40 Started polling.
+DEBUG: 10/27/2019 04:49:40 Received task
+DEBUG: 10/27/2019 04:49:40 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:49:44 The server returned: 'b'{"ok":true,"result":[{"update_id":131698624,\n"message":{"message_id":1138,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572190667,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}},{"update_id":131698625,\n"message":{"message_id":1197,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572191379,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 04:49:44 Received 2 new updates
+DEBUG: 10/27/2019 04:49:44 Task complete
+DEBUG: 10/27/2019 04:49:44 Received task
+DEBUG: 10/27/2019 04:49:44 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:50:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:50:04 Received 0 new updates
+DEBUG: 10/27/2019 04:50:04 Task complete
+DEBUG: 10/27/2019 04:50:04 Received task
+DEBUG: 10/27/2019 04:50:04 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:50:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:50:25 Received 0 new updates
+DEBUG: 10/27/2019 04:50:25 Task complete
+DEBUG: 10/27/2019 04:50:25 Received task
+DEBUG: 10/27/2019 04:50:25 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:50:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:50:45 Received 0 new updates
+DEBUG: 10/27/2019 04:50:45 Task complete
+DEBUG: 10/27/2019 04:50:45 Received task
+DEBUG: 10/27/2019 04:50:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:51:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:51:05 Received 0 new updates
+DEBUG: 10/27/2019 04:51:05 Task complete
+DEBUG: 10/27/2019 04:51:05 Received task
+DEBUG: 10/27/2019 04:51:05 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:51:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:51:25 Received 0 new updates
+DEBUG: 10/27/2019 04:51:25 Task complete
+DEBUG: 10/27/2019 04:51:25 Received task
+DEBUG: 10/27/2019 04:51:25 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:51:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:51:46 Received 0 new updates
+DEBUG: 10/27/2019 04:51:46 Task complete
+DEBUG: 10/27/2019 04:51:46 Received task
+DEBUG: 10/27/2019 04:51:46 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:52:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:52:06 Received 0 new updates
+DEBUG: 10/27/2019 04:52:06 Task complete
+DEBUG: 10/27/2019 04:52:06 Received task
+DEBUG: 10/27/2019 04:52:06 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698626, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:52:24 The server returned: 'b'{"ok":true,"result":[{"update_id":131698626,\n"message":{"message_id":1199,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572191545,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 04:52:24 Received 1 new updates
+DEBUG: 10/27/2019 04:52:24 Task complete
+DEBUG: 10/27/2019 04:52:24 Received task
+DEBUG: 10/27/2019 04:52:24 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698627, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:52:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:52:45 Received 0 new updates
+DEBUG: 10/27/2019 04:52:45 Task complete
+DEBUG: 10/27/2019 04:52:45 Received task
+DEBUG: 10/27/2019 04:52:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698627, 'timeout': 20} files=None
+DEBUG: 10/27/2019 04:53:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:53:05 Received 0 new updates
+DEBUG: 10/27/2019 04:53:05 Task complete
+DEBUG: 10/27/2019 04:53:05 Received task
+DEBUG: 10/27/2019 04:53:05 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698627, 'timeout': 20} files=None
+INFO: 10/27/2019 04:53:23 KeyboardInterrupt received.
+INFO: 10/27/2019 04:53:23 Stopped polling.
+ERROR: 10/27/2019 04:53:23 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 213, in start
+    bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+DEBUG: 10/27/2019 04:53:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:53:25 Received 0 new updates
+DEBUG: 10/27/2019 04:53:25 Task complete
+INFO: 10/27/2019 04:53:26 Started polling.
+DEBUG: 10/27/2019 04:53:26 Received task
+DEBUG: 10/27/2019 04:53:26 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+INFO: 10/27/2019 04:53:32 KeyboardInterrupt received.
+INFO: 10/27/2019 04:53:32 Stopped polling.
+ERROR: 10/27/2019 04:53:32 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 213, in start
+    bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+DEBUG: 10/27/2019 04:53:50 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 04:53:50 Received 0 new updates
+DEBUG: 10/27/2019 04:53:50 Task complete
+ERROR: 10/27/2019 06:37:35 Unhandled exception on handleExtraction
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 84, in handleExtraction
+    Messenger.start(msg)
+NameError: name 'Messenger' is not defined
+INFO: 10/27/2019 06:38:44 Started polling.
+DEBUG: 10/27/2019 06:38:44 Received task
+DEBUG: 10/27/2019 06:38:44 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:38:48 The server returned: 'b'{"ok":true,"result":[{"update_id":131698692,\n"message":{"message_id":1361,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572197856,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}},{"update_id":131698693,\n"message":{"message_id":1363,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572197917,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:38:48 Received 2 new updates
+DEBUG: 10/27/2019 06:38:48 Task complete
+DEBUG: 10/27/2019 06:38:48 Received task
+DEBUG: 10/27/2019 06:38:48 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:39:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:39:08 Received 0 new updates
+DEBUG: 10/27/2019 06:39:08 Task complete
+DEBUG: 10/27/2019 06:39:08 Received task
+DEBUG: 10/27/2019 06:39:08 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:39:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:39:29 Received 0 new updates
+DEBUG: 10/27/2019 06:39:29 Task complete
+DEBUG: 10/27/2019 06:39:29 Received task
+DEBUG: 10/27/2019 06:39:29 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:39:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:39:49 Received 0 new updates
+DEBUG: 10/27/2019 06:39:49 Task complete
+DEBUG: 10/27/2019 06:39:49 Received task
+DEBUG: 10/27/2019 06:39:49 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:40:09 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:40:10 Received 0 new updates
+DEBUG: 10/27/2019 06:40:10 Task complete
+DEBUG: 10/27/2019 06:40:10 Received task
+DEBUG: 10/27/2019 06:40:10 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:40:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:40:31 Received 0 new updates
+DEBUG: 10/27/2019 06:40:31 Task complete
+DEBUG: 10/27/2019 06:40:31 Received task
+DEBUG: 10/27/2019 06:40:31 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:40:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:40:51 Received 0 new updates
+DEBUG: 10/27/2019 06:40:51 Task complete
+DEBUG: 10/27/2019 06:40:51 Received task
+DEBUG: 10/27/2019 06:40:51 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698694, 'timeout': 20} files=None
+INFO: 10/27/2019 06:40:57 KeyboardInterrupt received.
+ERROR: 10/27/2019 06:40:58 Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py:373> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 67, in run_until_disconnected
+    return self.loop.run_until_complete(self._run_until_disconnected())
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 595, in run_until_complete
+    self.run_forever()
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 563, in run_forever
+    self._run_once()
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\asyncio\base_events.py", line 1844, in _run_once
+    handle._run()
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 101, in handleExtraction
+    [await getMembers(user, link, msg) for link in links] # Iterating through the update process
+  File "extractionBot.py", line 101, in <listcomp>
+    [await getMembers(user, link, msg) for link in links] # Iterating through the update process
+  File "extractionBot.py", line 133, in getMembers
+    Messenger.start(msg)
+  File "C:\Users\PROSPER\Desktop\Comet\Extraction-Bot\Messenger.py", line 132, in <module>
+    bot.polling(none_stop=True)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 389, in polling
+    self.__threaded_polling(none_stop, interval, timeout)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telebot\__init__.py", line 433, in __threaded_polling
+    logger.info('Stopped polling.')
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+KeyboardInterrupt
+INFO: 10/27/2019 06:44:56 Started polling.
+DEBUG: 10/27/2019 06:44:56 Received task
+DEBUG: 10/27/2019 06:44:56 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:44:57 The server returned: 'b'{"ok":true,"result":[{"update_id":131698696,\n"message":{"message_id":1371,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198257,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}},{"update_id":131698697,\n"message":{"message_id":1372,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198289,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:44:57 Received 2 new updates
+DEBUG: 10/27/2019 06:44:57 Task complete
+DEBUG: 10/27/2019 06:44:57 Received task
+DEBUG: 10/27/2019 06:44:57 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698698, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:45:10 The server returned: 'b'{"ok":true,"result":[{"update_id":131698698,\n"message":{"message_id":1378,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198312,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:45:10 Received 1 new updates
+DEBUG: 10/27/2019 06:45:10 Task complete
+DEBUG: 10/27/2019 06:45:10 Received task
+DEBUG: 10/27/2019 06:45:10 Received task
+DEBUG: 10/27/2019 06:45:10 Request: method=post url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/sendMessage params={'chat_id': '577180091', 'text': 'Hello codefred', 'reply_to_message_id': 1378} files=None
+DEBUG: 10/27/2019 06:45:10 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698699, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:45:14 The server returned: 'b'{"ok":true,"result":{"message_id":1379,"from":{"id":808783132,"is_bot":true,"first_name":"UserBot","username":"noblecmathewBot"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198315,"reply_to_message":{"message_id":1378,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198312,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]},"text":"Hello codefred"}}''
+DEBUG: 10/27/2019 06:45:16 Request: method=post url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/sendMessage params={'chat_id': '577180091', 'text': 'What do you have to tell the users today? Type it down..'} files=None
+DEBUG: 10/27/2019 06:45:16 The server returned: 'b'{"ok":true,"result":{"message_id":1380,"from":{"id":808783132,"is_bot":true,"first_name":"UserBot","username":"noblecmathewBot"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198317,"text":"What do you have to tell the users today? Type it down.."}}''
+DEBUG: 10/27/2019 06:45:16 Task complete
+DEBUG: 10/27/2019 06:45:25 The server returned: 'b'{"ok":true,"result":[{"update_id":131698699,\n"message":{"message_id":1381,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198327,"text":"dfd"}}]}''
+DEBUG: 10/27/2019 06:45:25 Received 1 new updates
+DEBUG: 10/27/2019 06:45:25 Task complete
+DEBUG: 10/27/2019 06:45:25 Received task
+DEBUG: 10/27/2019 06:45:25 Request: method=post url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/sendMessage params={'chat_id': '577180091', 'text': 'Do you wish to continue? Message >> dfd', 'reply_markup': '{"inline_keyboard": [[{"text": "Accept", "callback_data": "1"}, {"text": "Decline", "callback_data": "2"}]]}'} files=None
+DEBUG: 10/27/2019 06:45:25 Received task
+DEBUG: 10/27/2019 06:45:25 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698700, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:45:26 The server returned: 'b'{"ok":true,"result":{"message_id":1382,"from":{"id":808783132,"is_bot":true,"first_name":"UserBot","username":"noblecmathewBot"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198327,"text":"Do you wish to continue? Message >> dfd","reply_markup":{"inline_keyboard":[[{"text":"Accept","callback_data":"1"},{"text":"Decline","callback_data":"2"}]]}}}''
+DEBUG: 10/27/2019 06:45:26 Task complete
+DEBUG: 10/27/2019 06:45:28 The server returned: 'b'{"ok":true,"result":[{"update_id":131698700,\n"callback_query":{"id":"2478969619021989262","from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"message":{"message_id":1382,"from":{"id":808783132,"is_bot":true,"first_name":"UserBot","username":"noblecmathewBot"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198327,"text":"Do you wish to continue? Message >> dfd","reply_markup":{"inline_keyboard":[[{"text":"Accept","callback_data":"1"},{"text":"Decline","callback_data":"2"}]]}},"chat_instance":"4683883478467714910","data":"1"}}]}''
+DEBUG: 10/27/2019 06:45:28 Received 1 new updates
+DEBUG: 10/27/2019 06:45:28 Task complete
+DEBUG: 10/27/2019 06:45:28 Received task
+DEBUG: 10/27/2019 06:45:28 Received task
+INFO: 10/27/2019 06:45:28 {'game_short_name': None, 'chat_instance': '4683883478467714910', 'id': '2478969619021989262', 'from_user': {'id': 577180091, 'is_bot': False, 'first_name': 'Comet', 'username': 'codefred', 'last_name': None, 'language_code': 'en'}, 'message': {'content_type': 'text', 'message_id': 1382, 'from_user': <telebot.types.User object at 0x0720EC28>, 'date': 1572198327, 'chat': <telebot.types.Chat object at 0x0720EB98>, 'forward_from_chat': None, 'forward_from': None, 'forward_date': None, 'reply_to_message': None, 'edit_date': None, 'media_group_id': None, 'author_signature': None, 'text': 'Do you wish to continue? Message >> dfd', 'entities': None, 'caption_entities': None, 'audio': None, 'document': None, 'photo': None, 'sticker': None, 'video': None, 'video_note': None, 'voice': None, 'caption': None, 'contact': None, 'location': None, 'venue': None, 'new_chat_member': None, 'new_chat_members': None, 'left_chat_member': None, 'new_chat_title': None, 'new_chat_photo': None, 'delete_chat_photo': None, 'group_chat_created': None, 'supergroup_chat_created': None, 'channel_chat_created': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'pinned_message': None, 'invoice': None, 'successful_payment': None, 'connected_website': None, 'json': {'message_id': 1382, 'from': {'id': 808783132, 'is_bot': True, 'first_name': 'UserBot', 'username': 'noblecmathewBot'}, 'chat': {'id': 577180091, 'first_name': 'Comet', 'username': 'codefred', 'type': 'private'}, 'date': 1572198327, 'text': 'Do you wish to continue? Message >> dfd', 'reply_markup': {'inline_keyboard': [[{'text': 'Accept', 'callback_data': '1'}, {'text': 'Decline', 'callback_data': '2'}]]}}}, 'data': '1', 'inline_message_id': None}
+DEBUG: 10/27/2019 06:45:28 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698701, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:45:28 Request: method=post url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/sendMessage params={'chat_id': '577180091', 'text': 'Please send the updated database file here >> '} files=None
+DEBUG: 10/27/2019 06:45:28 The server returned: 'b'{"ok":true,"result":{"message_id":1383,"from":{"id":808783132,"is_bot":true,"first_name":"UserBot","username":"noblecmathewBot"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198330,"text":"Please send the updated database file here >>"}}''
+DEBUG: 10/27/2019 06:45:28 Task complete
+DEBUG: 10/27/2019 06:45:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:45:48 Received 0 new updates
+DEBUG: 10/27/2019 06:45:48 Task complete
+DEBUG: 10/27/2019 06:45:48 Received task
+DEBUG: 10/27/2019 06:45:48 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698701, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:46:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:46:08 Received 0 new updates
+DEBUG: 10/27/2019 06:46:08 Task complete
+INFO: 10/27/2019 06:46:08 KeyboardInterrupt received.
+INFO: 10/27/2019 06:46:08 Stopped polling.
+ERROR: 10/27/2019 06:46:09 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 210, in start
+    await bot.send_message(user.id, f"Hello {user.username}")
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\messages.py", line 743, in send_message
+    result = await self(request)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\users.py", line 53, in __call__
+    future = self._sender.send(request, ordered=ordered)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\network\mtprotosender.py", line 162, in send
+    raise ConnectionError('Cannot send requests while disconnected')
+ConnectionError: Cannot send requests while disconnected
+INFO: 10/27/2019 06:46:41 Started polling.
+DEBUG: 10/27/2019 06:46:41 Received task
+DEBUG: 10/27/2019 06:46:41 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:46:42 The server returned: 'b'{"ok":true,"result":[{"update_id":131698701,\n"message":{"message_id":1384,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198392,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:46:42 Received 1 new updates
+DEBUG: 10/27/2019 06:46:42 Task complete
+DEBUG: 10/27/2019 06:46:42 Received task
+DEBUG: 10/27/2019 06:46:42 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698702, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:47:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:47:02 Received 0 new updates
+DEBUG: 10/27/2019 06:47:02 Task complete
+DEBUG: 10/27/2019 06:47:02 Received task
+DEBUG: 10/27/2019 06:47:02 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698702, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:47:02 The server returned: 'b'{"ok":true,"result":[{"update_id":131698702,\n"message":{"message_id":1390,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198424,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:47:02 Received 1 new updates
+DEBUG: 10/27/2019 06:47:02 Task complete
+DEBUG: 10/27/2019 06:47:02 Received task
+DEBUG: 10/27/2019 06:47:02 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698703, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:47:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:47:22 Received 0 new updates
+DEBUG: 10/27/2019 06:47:22 Task complete
+DEBUG: 10/27/2019 06:47:22 Received task
+DEBUG: 10/27/2019 06:47:22 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698703, 'timeout': 20} files=None
+INFO: 10/27/2019 06:47:42 KeyboardInterrupt received.
+INFO: 10/27/2019 06:47:42 Stopped polling.
+ERROR: 10/27/2019 06:47:42 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 210, in start
+    await bot.send_message(user.id, f"Hello {user.username}")
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\messages.py", line 743, in send_message
+    result = await self(request)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\users.py", line 53, in __call__
+    future = self._sender.send(request, ordered=ordered)
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\network\mtprotosender.py", line 162, in send
+    raise ConnectionError('Cannot send requests while disconnected')
+ConnectionError: Cannot send requests while disconnected
+DEBUG: 10/27/2019 06:47:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:47:43 Received 0 new updates
+DEBUG: 10/27/2019 06:47:43 Task complete
+INFO: 10/27/2019 06:48:18 Started polling.
+DEBUG: 10/27/2019 06:48:18 Received task
+DEBUG: 10/27/2019 06:48:18 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:48:19 The server returned: 'b'{"ok":true,"result":[{"update_id":131698703,\n"message":{"message_id":1391,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198497,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:48:19 Received 1 new updates
+DEBUG: 10/27/2019 06:48:19 Task complete
+DEBUG: 10/27/2019 06:48:19 Received task
+DEBUG: 10/27/2019 06:48:19 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698704, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:48:32 The server returned: 'b'{"ok":true,"result":[{"update_id":131698704,\n"message":{"message_id":1393,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198513,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:48:32 Received 1 new updates
+DEBUG: 10/27/2019 06:48:32 Task complete
+DEBUG: 10/27/2019 06:48:32 Received task
+DEBUG: 10/27/2019 06:48:32 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698705, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:48:38 The server returned: 'b'{"ok":true,"result":[{"update_id":131698705,\n"message":{"message_id":1394,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198520,"text":"xcvncv"}}]}''
+DEBUG: 10/27/2019 06:48:38 Received 1 new updates
+DEBUG: 10/27/2019 06:48:38 Task complete
+DEBUG: 10/27/2019 06:48:38 Received task
+DEBUG: 10/27/2019 06:48:38 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698706, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:48:45 The server returned: 'b'{"ok":true,"result":[{"update_id":131698706,\n"message":{"message_id":1395,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198527,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:48:45 Received 1 new updates
+DEBUG: 10/27/2019 06:48:45 Task complete
+DEBUG: 10/27/2019 06:48:45 Received task
+DEBUG: 10/27/2019 06:48:45 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698707, 'timeout': 20} files=None
+INFO: 10/27/2019 06:49:04 KeyboardInterrupt received.
+INFO: 10/27/2019 06:49:04 Stopped polling.
+ERROR: 10/27/2019 06:49:04 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 216, in start
+    bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+DEBUG: 10/27/2019 06:49:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:49:06 Received 0 new updates
+DEBUG: 10/27/2019 06:49:06 Task complete
+INFO: 10/27/2019 06:49:42 Started polling.
+DEBUG: 10/27/2019 06:49:42 Received task
+DEBUG: 10/27/2019 06:49:42 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:49:43 The server returned: 'b'{"ok":true,"result":[{"update_id":131698707,\n"message":{"message_id":1398,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198581,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 06:49:43 Received 1 new updates
+DEBUG: 10/27/2019 06:49:43 Task complete
+DEBUG: 10/27/2019 06:49:43 Received task
+DEBUG: 10/27/2019 06:49:43 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698708, 'timeout': 20} files=None
+DEBUG: 10/27/2019 06:50:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:50:03 Received 0 new updates
+DEBUG: 10/27/2019 06:50:03 Task complete
+DEBUG: 10/27/2019 06:50:03 Received task
+DEBUG: 10/27/2019 06:50:03 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698708, 'timeout': 20} files=None
+INFO: 10/27/2019 06:50:09 KeyboardInterrupt received.
+INFO: 10/27/2019 06:50:09 Stopped polling.
+ERROR: 10/27/2019 06:50:09 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 216, in start
+    async def stepTwo(msg):
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+DEBUG: 10/27/2019 06:50:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 06:50:23 Received 0 new updates
+DEBUG: 10/27/2019 06:50:23 Task complete
+INFO: 10/27/2019 07:04:57 Started polling.
+DEBUG: 10/27/2019 07:04:57 Received task
+DEBUG: 10/27/2019 07:04:57 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 1, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:05:00 The server returned: 'b'{"ok":true,"result":[{"update_id":131698708,\n"message":{"message_id":1400,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198736,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}},{"update_id":131698709,\n"message":{"message_id":1401,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572198802,"text":"/extract","entities":[{"offset":0,"length":8,"type":"bot_command"}]}},{"update_id":131698710,\n"message":{"message_id":1460,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572199496,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 10/27/2019 07:05:00 Received 3 new updates
+DEBUG: 10/27/2019 07:05:00 Task complete
+DEBUG: 10/27/2019 07:05:00 Received task
+DEBUG: 10/27/2019 07:05:00 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698711, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:05:09 The server returned: 'b'{"ok":true,"result":[{"update_id":131698711,\n"message":{"message_id":1462,"from":{"id":577180091,"is_bot":false,"first_name":"Comet","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Comet","username":"codefred","type":"private"},"date":1572199510,"text":"Hello"}}]}''
+DEBUG: 10/27/2019 07:05:09 Received 1 new updates
+DEBUG: 10/27/2019 07:05:09 Task complete
+DEBUG: 10/27/2019 07:05:09 Received task
+DEBUG: 10/27/2019 07:05:09 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:05:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:05:29 Received 0 new updates
+DEBUG: 10/27/2019 07:05:29 Task complete
+DEBUG: 10/27/2019 07:05:29 Received task
+DEBUG: 10/27/2019 07:05:29 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:05:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:05:49 Received 0 new updates
+DEBUG: 10/27/2019 07:05:49 Task complete
+DEBUG: 10/27/2019 07:05:49 Received task
+DEBUG: 10/27/2019 07:05:49 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:06:09 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:06:09 Received 0 new updates
+DEBUG: 10/27/2019 07:06:09 Task complete
+DEBUG: 10/27/2019 07:06:09 Received task
+DEBUG: 10/27/2019 07:06:09 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:06:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:06:30 Received 0 new updates
+DEBUG: 10/27/2019 07:06:30 Task complete
+DEBUG: 10/27/2019 07:06:30 Received task
+DEBUG: 10/27/2019 07:06:30 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:06:50 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:06:50 Received 0 new updates
+DEBUG: 10/27/2019 07:06:50 Task complete
+DEBUG: 10/27/2019 07:06:50 Received task
+DEBUG: 10/27/2019 07:06:50 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+DEBUG: 10/27/2019 07:07:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 10/27/2019 07:07:10 Received 0 new updates
+DEBUG: 10/27/2019 07:07:10 Task complete
+DEBUG: 10/27/2019 07:07:10 Received task
+DEBUG: 10/27/2019 07:07:10 Request: method=get url=https://api.telegram.org/bot808783132:AAHi9saPebiAtDpXKJyKG7k8jHCWzvjRWjU/getUpdates params={'offset': 131698712, 'timeout': 20} files=None
+INFO: 10/27/2019 07:07:22 KeyboardInterrupt received.
+INFO: 10/27/2019 07:07:22 Stopped polling.
+ERROR: 10/27/2019 07:07:22 Unhandled exception on start
+Traceback (most recent call last):
+  File "C:\Users\PROSPER\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telethon\client\updates.py", line 422, in _dispatch_update
+    await callback(event)
+  File "extractionBot.py", line 214, in start
+    #     bot2.register_next_step_handler(question, stepTwo)
+AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
