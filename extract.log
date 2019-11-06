@@ -642,3 +642,5 @@ Traceback (most recent call last):
   File "extractionBot.py", line 214, in start
     #     bot2.register_next_step_handler(question, stepTwo)
 AttributeError: 'NoneType' object has no attribute 'register_next_step_handler'
+WARNING: 11/04/2019 07:41:24 Unhandled <class 'ConnectionAbortedError'> on disconnect: [WinError 1236] The network connection was aborted by the local system
+WARNING: 11/04/2019 07:41:25 Unhandled <class 'ConnectionAbortedError'> on disconnect: [WinError 1236] The network connection was aborted by the local system
